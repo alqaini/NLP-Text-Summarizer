@@ -16,6 +16,6 @@ mypy-boto3-s3
 python-box==6.0.2
 ensure == 1.0.2
 fastapi == 0.78.0
-unicorn == 0.18.3
-jina2 == 3.1.2
+unicorn == 2.0.0
+Jinja2 == 3.1.2
 -e .
