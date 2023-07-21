@@ -32,7 +32,8 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
-        def get_data_validation_config(self) -> DataValidationConfig:
+
+    def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
 
         create_directories([config.root_dir])
@@ -58,7 +59,8 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
-        def get_model_trainer_config(self) -> ModelTrainerConfig:
+
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.TrainingArguments
 
